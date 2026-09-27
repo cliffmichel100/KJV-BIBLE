@@ -1,0 +1,1 @@
+const INDEXES=[{"topic":"Salvation","refs":["John 3:16","Acts 16:31","Eph 2:8-9","Rom 10:9-13"]},{"topic":"Eternal Security","refs":["John 10:28-29","John 5:24","Rom 8:38-39"]},{"topic":"Second Coming","refs":["1 Thess 4:16","Rev 19:11","Matt 24:29-30"]}];
