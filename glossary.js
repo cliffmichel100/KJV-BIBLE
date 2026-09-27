@@ -1,0 +1,1 @@
+const GLOSSARY=[{"term":"Atonement","def":"Covering for sin by blood - Lev 17:11"},{"term":"Grace","def":"Unmerited favor - Eph 2:8"},{"term":"Rapture","def":"Catching away of saints - 1 Thess 4:16-17"},{"term":"Justification","def":"Declared righteous by faith - Rom 5:1"}];
