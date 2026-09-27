@@ -1,0 +1,23 @@
+*{box-sizing:border-box}
+body{margin:0;background:#efe8d5;font-family:'Times New Roman',Georgia,serif;color:#231a0f}
+.top-banner{background:#111;color:#d4b56a;text-align:center;font-size:10px;letter-spacing:2px;padding:5px}
+header{background:#2b1b0e;color:#f7e2b0;text-align:center;padding:15px 10px;border-bottom:6px solid #c9a46a}
+header h1{margin:0;letter-spacing:4px}
+.subtitle{font-size:11px;margin:6px 0 10px 0;opacity:0.8}
+.search-area{display:flex;gap:5px;justify-content:center;flex-wrap:wrap}
+.search-area input{width:320px;padding:8px}
+#booksNav{display:flex;flex-wrap:wrap;gap:3px;padding:8px;background:#fff8e5;border-bottom:2px solid #c9a46a;justify-content:center}
+#booksNav button{font-size:11px;padding:4px 7px;background:#fffdf0;border:1px solid #c9a46a;cursor:pointer}
+main{display:grid;grid-template-columns:1.7fr 1fr;gap:10px;padding:10px}
+.paper{background:#fffdf5;border:1px solid #cbb994;box-shadow:0 2px 10px rgba(0,0,0,0.12);padding:22px;line-height:1.75;min-height:82vh;max-height:82vh;overflow:auto}
+.verse{margin-bottom:2px}
+.vnum{color:#8b0000;font-weight:bold;font-size:11px;vertical-align:super;margin-right:3px}
+.ref-title{border-bottom:2px solid #c9a46a;padding-bottom:5px;margin-top:0;color:#5a3a1a}
+.tabs{display:flex;flex-wrap:wrap;gap:2px;background:#e9dcc0;padding:4px}
+.tab{border:none;padding:8px 12px;cursor:pointer;background:#e9dcc0;font-weight:bold;font-size:12px}
+.tab.active{background:#2b1b0e;color:#f7e2b0}
+.tab-content{display:none}
+.tab-content.active{display:block}
+.comment-item{border-bottom:1px dotted #c9a46a;padding:8px 0;font-size:13.5px}
+footer{background:#1a1209;color:#d4b56a;text-align:center;padding:18px;font-size:12px}
+@media(max-width:900px){main{grid-template-columns:1fr}.paper{max-height:none}}
