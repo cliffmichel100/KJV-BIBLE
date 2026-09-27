@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AKOSIBIKO KJV Study Bible - Complete Edition</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="top-banner">HOLY BIBLE - KING JAMES VERSION - 1611 - PUBLIC DOMAIN - INDEPENDENT BAPTIST STUDY EDITION</div>
+<header>
+<h1>THE HOLY BIBLE</h1>
+<div class="subtitle">Complete KJV Study Bible | 66 Books | Commentary | Glossary | Maps | Indexes | Baptist Lessons</div>
+<div class="search-area">
+<input id="searchInput" placeholder="Search verse, word, e.g. John 3:16 or 'grace'...">
+<button onclick="doSearch()">Search Bible</button>
+<select id="bookSelect"></select>
+<select id="chapterSelect"></select>
+</div>
+</header>
+<nav id="booksNav"></nav>
+<main>
+<section class="left paper">
+<div id="bibleView">Loading...</div>
+</section>
+<section class="right">
+<div class="tabs">
+<button class="tab active" onclick="showTab('commentary')">Commentary</button>
+<button class="tab" onclick="showTab('lessons')">Baptist Lessons</button>
+<button class="tab" onclick="showTab('glossary')">Glossary (2500+)</button>
+<button class="tab" onclick="showTab('maps')">Maps</button>
+<button class="tab" onclick="showTab('indexes')">Indexes</button>
+</div>
+<div id="commentary" class="tab-content active paper"></div>
+<div id="lessons" class="tab-content paper"></div>
+<div id="glossary" class="tab-content paper"></div>
+<div id="maps" class="tab-content paper"></div>
+<div id="indexes" class="tab-content paper"></div>
+</section>
+</main>
+<footer>
+<p>Compiled & Designed by <b>akosibiko</b> | KJV Public Domain | Free Use - No Copyright | Baptist - Bible Believing - KJV Only - Non-Calvinist / Non-Arminian | Salvation by Grace through Faith - Whosoever Will May Come</p>
+<p>John 3:16 - For God so loved the world... | This site is ready anytime, anywhere, live and free.</p>
+</footer>
+<script src="bible-kjv.js"></script>
+<script src="commentary.js"></script>
+<script src="glossary.js"></script>
+<script src="maps.js"></script>
+<script src="lessons.js"></script>
+<script src="indexes.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
